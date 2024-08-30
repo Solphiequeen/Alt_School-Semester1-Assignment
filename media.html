@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+    <!--The faviscon tag is used to create image at the top of your webpage, this is like your personal webpage signature. 
+    I created my favicon using my image from https://www.favicon.cc. -->
+    <link rel="stylesheet" href="/CSS/media.css">
+</head>
+<body>
+    <div class="Introduction">
+      <p>
+        Name:<strong> Oluwakemi Sophia Bakare </strong><br><br>
+        Altschool ID: 
+      </p>
+    </div>
+   <div class="Responsive Image">
+    <h2>MEDIA PAGE</h2>
+    <h3>Responsive Image</h3>
+    <p><i>Resize this page to observe the image size changes</i></p>
+    <picture>
+        <source srcset="/assets/images/just.me.jpg" media="(min-width: 992px)">
+        <source srcset="/assets/images/just.me.jpg" media="(min-width: 769px)">
+        <source srcset="/assets/images/just.me.jpg" media="(min-width: 465px)">
+        <source srcset="/assets/images/just.me.jpg" media="(min-width: 320px)">
+        <img src="/assets/images/just.me.jpg" alt="Responsive Picture" style="width:50%;">
+  
+      </picture>
+    </div> 
+<div class="Audio">
+  <h3>Self Intro In Voice</h3>
+      <audio controls>
+        <source src="/assets/audio/My_Introduction_speech.unknown" type="audio/ogg">
+      </audio>
+    </div>
+      
+    <div class="video_container">
+      <h3>Self Intro In Video</h3>
+        <video id="video" src="/assets/video/Alt_video.mp4" width="320" height="240" controls loop muted autoplay> Video format not supported</video>
+    </div>
+
+    <div>
+      <h3>Embedded Video from Youtube</h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/3Uy5gN4_Hcw?si=ChrmROudwP7E1s3P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div>
+      <h3>Downloable Course Content </h3>
+      <object>
+        <a href="/assets/pdf/slides.pdf" download="Front End Course Material"> Download the Course Material Here</a>
+      </object>
+    </div>
+</body>
+</html>

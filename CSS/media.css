@@ -1,0 +1,14 @@
+body{
+    background-color: #E6E6FA;
+}
+.video_container{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+#video{
+    width: 50%;
+    height:10%;
+    border: 3px slid black;
+    border-radius: 10px;
+}

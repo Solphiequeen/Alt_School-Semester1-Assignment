@@ -1,0 +1,83 @@
+body {
+    font-size: 1rem;
+    background-color:#F8EDEB;
+  }
+
+nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    background-color: gray;
+}
+nav li {
+    display: inline;
+    padding: 10px;
+    margin: 5px;
+}
+nav li a{
+    border: 1px solid  darkgray;
+    padding: 5px;
+    
+}
+ nav li a:hover{color: yellow;
+    border: 5px;
+}
+.sec1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+/*margin value is top, right, bottom and left. it goes clockwise*/
+   background-color: #AEEEEE;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+.cover_img {
+    justify-items: center;
+    border-radius:0px;
+}
+h2{
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    color: #333;
+}
+.about_me {
+    background-color: #b3b3ff;
+   /* padding-bottom: 100px;*/
+   
+}
+
+.sec1 div {
+    background-color: #b3b3ff;
+    font-size: medium;
+    padding: 15px;
+}
+.article1{
+    width: 100%;
+}
+.goals {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    float: inline-start;
+    width: 40%;
+    height: 100%;
+}
+.why_altschool {
+    float: inline-end;
+    width: 45%;
+}
+.clear {
+    clear: both;
+}
+.social_media ul{
+    list-style-type: none;
+}
+.social_media ul li {
+    display: inline;
+    margin: 1%;
+}
