@@ -1,6 +1,23 @@
-table{
-    border: 15px solid black;
+.table-wrapper {
+    overflow-x: auto;
+    margin: 20px 0; 
 }
+body {
+    background-color: #E6E6FA;
+}
+table th td {
+    border: 2px solid black;
+    border-collapse: collapse;
+text-align: right;
+}
+
 th td {
-    padding: 10px;
+border:
+    1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even)
+{background-color:white;
 }
