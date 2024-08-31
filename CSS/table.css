@@ -21,3 +21,14 @@ border:
 tr:nth-child(even)
 {background-color:white;
 }
+
+.table-container {
+    overflow-x: auto; /* Enable horizontal scroll */
+    -webkit-overflow-scrolling: touch; /* For smooth scrolling */
+}
+@media (max-width: 600px) {
+    th, td {
+        padding: 6px;
+        font-size: 14px; /* Adjust font size */
+    }
+}
