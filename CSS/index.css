@@ -2,13 +2,13 @@ body {
     font-size: 1rem;
     background-color:#F8EDEB;
   }
-
 nav{
     list-style-type: none;
-    margin: 0;
+    margin-top: 0;
     padding: 5px;
     overflow: hidden;
-    background-color: gray;
+    background-color: #E0E0E0;
+    font-style: italic;
 }
 nav li {
     display: inline;
@@ -18,10 +18,11 @@ nav li {
 nav li a{
     border: 1px solid  darkgray;
     padding: 5px;
-    
+    outline: none;
+    border: none;
+    text-decoration: none;
 }
- nav li a:hover{color: yellow;
-    border: 5px;
+nav li a:hover{color: yellow;
 }
 
 @media (max-width: 600px) {
@@ -38,6 +39,7 @@ nav li a{
         padding: 0;
     }
 }
+
 .sec1 {
     display: flex;
     flex-direction: column;
@@ -46,7 +48,7 @@ nav li a{
    background-color: #AEEEEE;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     .flex-container {
       flex-direction: column;
     }
@@ -63,7 +65,7 @@ h2{
 }
 .about_me {
     background-color: #b3b3ff;
-   /* padding-bottom: 100px;*/
+    padding: 10px;
    
 }
 
